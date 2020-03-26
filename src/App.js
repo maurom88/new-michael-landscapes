@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css'
 
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Gallery from './components/pages/Gallery'
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gallery" component={Gallery} exact />
           <Route path="/contact_me" component={ContactMe} exact />
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   );
