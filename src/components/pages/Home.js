@@ -6,8 +6,9 @@ function Home() {
             <main>
                 <div class="container">
                     <p>
-                        "We come from Nature. We are connected to it throughout our whole lives, there is an importance to it. If we
-        destroy nature, we will ultimately destroy ourselves"<br />
+                        "We come from Nature. We are connected to it throughout our whole lives,
+                        there is an importance to it.
+                        If we destroy nature, we will ultimately destroy ourselves"<br />
                         <span class="quote">- Michael</span>
                     </p>
                 </div>
@@ -28,7 +29,7 @@ function Home() {
                 <div class="recentwork">
                     <h2>Recent Work</h2>
                     <img src="images/lakes/lakes_22.jpg" width="100%" alt="Lake" />
-                    <img src="images/orest/forest_22.jpg" width="100%" alt="Forest" />
+                    <img src="images/forest/forest_22.jpg" width="100%" alt="Forest" />
                     <img src="images/nightSky/nightsky_22.jpg" width="100%" alt="Night Sky" />
                 </div>
             </aside>
