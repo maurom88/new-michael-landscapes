@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactLink from './items/ContactLink'
 
 function Header() {
     return (
@@ -18,7 +19,7 @@ function Header() {
                         <a href="photogallery_night.html">Night Skies</a>
                     </div>
                 </div>
-                <a href="contact_me">Contact</a>
+                <ContactLink />
             </div>
         </div>
     )

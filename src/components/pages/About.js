@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ContactLink from '../items/ContactLink'
+
 function About() {
     return (
         <div>
@@ -31,7 +33,7 @@ function About() {
                         Book a photoshoot
                         </p>
                     <p>
-                        <a href="contactus.html">Contact Michael</a>
+                        <ContactLink />
                     </p>
                 </div>
             </aside>

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ContactLink from '../items/ContactLink'
+
 function Home() {
     return (
         <div>
@@ -21,7 +23,9 @@ function Home() {
                         Book a lesson<br />
                         Book a photoshoot
                     </p>
-                    <p><a href="contactus.html">Contact Michael</a></p>
+                    <p>
+                        <ContactLink />
+                    </p>
                 </div>
             </aside>
 
