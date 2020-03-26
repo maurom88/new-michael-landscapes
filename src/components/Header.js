@@ -27,12 +27,12 @@ function Header() {
                                 Galleries
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/gallery">All Categories</a>
+                                <a class="dropdown-item" href="/galleries">All Categories</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Forests</a>
-                                <a class="dropdown-item" href="#">Lakes</a>
-                                <a class="dropdown-item" href="#">Mountains</a>
-                                <a class="dropdown-item" href="#">Night Skies</a>
+                                <a class="dropdown-item" href="/galleries/forest">Forests</a>
+                                <a class="dropdown-item" href="/galleries/lake">Lakes</a>
+                                <a class="dropdown-item" href="/galleries/nightSky">Night Skies</a>
+                                <a class="dropdown-item" href="/galleries/mountain">Mountains</a>
                             </div>
                         </li>
 
