@@ -5,6 +5,7 @@ import './App.css'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Gallery from './components/pages/Gallery'
+import ContactMe from './components/pages/ContactMe'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} exact />
           <Route path="/gallery" component={Gallery} exact />
+          <Route path="/contact_me" component={ContactMe} exact />
         </Switch>
       </div>
     </BrowserRouter>
