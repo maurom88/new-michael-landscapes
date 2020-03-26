@@ -3,7 +3,7 @@ import ContactLink from './items/ContactLink'
 
 function Header() {
     return (
-        <div>
+        <header>
             <img alt="Michael's Landscapes" className="mainlogo" src="images/MichaelsLandscapes_White.png" />
 
             <div className="navbar">
@@ -21,7 +21,7 @@ function Header() {
                 </div>
                 <ContactLink />
             </div>
-        </div>
+        </header>
     )
 }
 
