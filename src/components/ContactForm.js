@@ -54,52 +54,28 @@ function ContactForm() {
 
     return (
         <form id="contactForm" onSubmit={handleSubmit}>
-            <div className="form-container">
-                <div className="row">
-                    <div className="col-narrow">
-                        <label htmlFor="name">Name: </label>
-                    </div>
-                    <div className="col-wide">
-                        <input onChange={handleNameInput} type="text" name="name" placeholder="John Smith" required /><br />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-narrow">
-                        <label htmlFor="phone">Phone #: </label>
-                    </div>
-                    <div className="col-wide">
-                        <input onChange={handlePhoneInput} type="tel" name="phone" placeholder="xxx-xxx-xxxx" /><br />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-narrow">
-                        <label htmlFor="email">Email address: </label>
-                    </div>
-                    <div className="col-wide">
-                        <input onChange={handleEmailInput} type="email" name="email" placeholder="name@example.com" required /><br />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-narrow">
-                        <label htmlFor="subject">Subject: </label>
-                    </div>
-                    <div className="col-wide">
-                        <input onChange={handleSubjectInput} type="text" name="subject" required /><br />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-narrow">
-                        <label htmlFor="message">Your message: </label>
-                    </div>
-                    <div className="col-wide">
-                        <textarea onChange={handleMessageInput} rows="10" cols="30" name="message" required></textarea><br />
-                    </div>
-                </div>
-                <div className="row col-narrow">
-                    <input type="submit" value="Send message" />
-                    <input type="reset" value="Reset" />
-                </div>
+            <div className="form-group">
+                <label htmlFor="name">Name: </label>
+                <input onChange={handleNameInput} className="form-control"  type="text" name="name" placeholder="John Smith" required /><br />
             </div>
+            <div className="form-group">
+                <label htmlFor="phone">Phone #: </label>
+                <input onChange={handlePhoneInput} className="form-control" type="tel" name="phone" placeholder="xxx-xxx-xxxx" /><br />
+            </div>
+            <div className="form-group">
+                <label htmlFor="email">Email address: </label>
+                <input onChange={handleEmailInput} className="form-control" type="email" name="email" placeholder="name@example.com" required /><br />
+            </div>
+            <div className="form-group">
+                <label htmlFor="subject">Subject: </label>
+                <input onChange={handleSubjectInput} className="form-control" type="text" name="subject" required /><br />
+            </div>
+            <div className="form-group">
+                <label htmlFor="message">Your message: </label>
+                <textarea onChange={handleMessageInput} className="form-control" rows="10" cols="30" name="message" required></textarea><br />
+            </div>
+                <input className="btn btn-primary mx-2 mb-2" type="submit" value="Send message" />
+                <input className="btn btn-primary mx-2 mb-2" type="reset" value="Reset" />
         </form>
     )
 }

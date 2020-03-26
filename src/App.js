@@ -6,7 +6,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
-import Gallery from './components/pages/Gallery'
+import Gallery from './components/pages/galleries/GalleryMain'
 import ContactMe from './components/pages/ContactMe'
 
 function App() {

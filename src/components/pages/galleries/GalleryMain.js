@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Gallery() {
+function GalleryMain() {
     return (
         <div>
             <main>
@@ -36,4 +36,4 @@ function Gallery() {
     )
 }
 
-export default Gallery
+export default GalleryMain
