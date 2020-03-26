@@ -27,9 +27,9 @@ function Gallery() {
 
                 <div class="gallery">
                     <a href="photogallery_night.html">
-                        <img alt="Mountains" height="400" src="images/nightSkird/nightsky_1.jpg" width="600" />
+                        <img alt="Mountains" height="400" src="images/nightSkies/nightsky_1.jpg" width="600" />
                     </a>
-                    <div class="desc">NightSky Gallery</div>
+                    <div class="desc">Night Skies Pictures</div>
                 </div>
             </main>
         </div>
