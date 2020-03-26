@@ -4,18 +4,18 @@ function Home() {
     return (
         <div>
             <main>
-                <div class="container">
+                <div className="container">
                     <p>
                         "We come from Nature. We are connected to it throughout our whole lives,
                         there is an importance to it.
                         If we destroy nature, we will ultimately destroy ourselves"<br />
-                        <span class="quote">- Michael</span>
+                        <span className="quote">- Michael</span>
                     </p>
                 </div>
             </main>
 
             <aside>
-                <div class="sidebar services">
+                <div className="sidebar services">
                     <h2>Services</h2>
                     <p>
                         Book a lesson<br />
@@ -26,7 +26,7 @@ function Home() {
             </aside>
 
             <aside>
-                <div class="recentwork">
+                <div className="recentwork">
                     <h2>Recent Work</h2>
                     <img src="images/lakes/lakes_22.jpg" width="100%" alt="Lake" />
                     <img src="images/forests/forest_22.jpg" width="100%" alt="Forest" />

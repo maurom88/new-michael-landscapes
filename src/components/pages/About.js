@@ -4,7 +4,7 @@ function About() {
     return (
         <div>
             <main>
-                <div class="about-container">
+                <div className="about-container">
                     <h2>Michael Lewis</h2>
                     <p>
                         I fell in love with photography when I was teenager.
@@ -18,13 +18,13 @@ function About() {
                         My landscape are all about the outdoors and telling a story.
                     </p>
                     <p>
-                        <img class="mainlogo" src="images/michael_lewis_portrait.jpg" alt="Michael Lewis Self Portrait" />
+                        <img className="mainlogo" src="images/michael_lewis_portrait.jpg" alt="Michael Lewis Self Portrait" />
                     </p>
                 </div>
             </main>
 
             <aside>
-                <div class="sidebar services">
+                <div className="sidebar services">
                     <h2>Services</h2>
                     <p>
                         Book a lesson<br />
