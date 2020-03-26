@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css'
 
+import Header from './components/Header'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Gallery from './components/pages/Gallery'
@@ -11,6 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Header />
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} exact />
