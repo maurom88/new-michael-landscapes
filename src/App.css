@@ -13,14 +13,6 @@ header {
     margin: -10px -10px 10px -10px;
 }
 
-main {
-    float: left;
-    text-align: center;
-    width: 65%;
-    font-size: 18px;
-    margin: 10px 0px 10px 0px;
-}
-
 .quote, h2 {
     color: #0072af;
 }
@@ -87,72 +79,4 @@ a:hover, .dropdown:hover .dropbtn {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.middle {
-    padding: 15px;
-}
-
-.container {
-    text-align: center;
-    float: left;
-    margin-left: 25%;
-    overflow: wrap;
-}
-
-.about-container {
-    text-align: center;
-    float: left;
-    word-wrap: break-word;
-}
-
-/* sidebar */
-
-.sidebar {
-    width: 25%;
-    float: right;
-    vertical-align: top;
-    text-align: center;
-    background-color: #424242;
-    margin-top: 100px;
-    margin-right: 60px;
-    border-radius: 5%;
-}
-
-.sidebar p {
-    color: #0072af;
-}
-
-/* recent work on homepage */
-
-.recentwork {
-    width: 65%;
-    text-align: center;
-}
-
-.recentwork img {
-    width: 30%;
-}
-
-/*** GALLERIES STYLING ***/
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 23%;
-}
-
-div.gallery:hover {
-    border: 2px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
 }
