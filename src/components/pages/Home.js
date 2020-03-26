@@ -29,8 +29,8 @@ function Home() {
                 <div class="recentwork">
                     <h2>Recent Work</h2>
                     <img src="images/lakes/lakes_22.jpg" width="100%" alt="Lake" />
-                    <img src="images/forest/forest_22.jpg" width="100%" alt="Forest" />
-                    <img src="images/nightSky/nightsky_22.jpg" width="100%" alt="Night Sky" />
+                    <img src="images/forests/forest_22.jpg" width="100%" alt="Forest" />
+                    <img src="images/nightSkies/nightsky_22.jpg" width="100%" alt="Night Sky" />
                 </div>
             </aside>
         </div>
