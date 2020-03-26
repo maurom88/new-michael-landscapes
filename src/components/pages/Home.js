@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ContactLink from '../items/ContactLink'
+import Sidebar from '../items/Sidebar'
 
 function Home() {
     return (
@@ -16,18 +16,7 @@ function Home() {
                 </div>
             </main>
 
-            <aside>
-                <div className="sidebar services">
-                    <h2>Services</h2>
-                    <p>
-                        Book a lesson<br />
-                        Book a photoshoot
-                    </p>
-                    <p>
-                        <ContactLink />
-                    </p>
-                </div>
-            </aside>
+            <Sidebar />
 
             <aside>
                 <div className="recentwork">
