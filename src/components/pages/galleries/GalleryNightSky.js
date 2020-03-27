@@ -6,8 +6,8 @@ function GalleryNightSky() {
     return (
         <div>
             <main>
-                <GalleryPic height="400" width="600" href="#" desc="Forest 1" alt="Forest 1" src="images/forests/forest_1.jpg" />
-                <GalleryPic height="400" width="600" href="#" desc="Forest 2" alt="Forest 2" src="images/forests/forest_2.jpg" />
+                <GalleryPic height="400" width="600" href="#" desc="Night Sky 1" alt="Night Sky 1" src="../images/nightSkies/nightSky_1.jpg" />
+                <GalleryPic height="400" width="600" href="#" desc="Night Sky 2" alt="Night Sky 2" src="../images/nightSkies/nightSky_2.jpg" />
             </main>
         </div>
     )
