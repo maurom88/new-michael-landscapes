@@ -15,6 +15,7 @@ header {
 
 .quote, h2 {
     color: #0072af;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 .mainlogo {
@@ -27,18 +28,14 @@ header {
     margin-top: 40px;
     padding: 20px;
     border-style: solid;
-    border-color: rgba(0,0,0,0.2);
-    box-shadow: 5px 10px 10px rgba(0,0,0,0.2), 5px 10px 10px rgba(0,0,0,0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2), 5px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .sidebar-services {
     padding: 10%;
     color: #424242;
-    text-shadow: 5px 5px 2px rgba(0,0,0,0.2);
-}
-
-.sidebar-services h2 {
-
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* navigation */
@@ -47,7 +44,7 @@ header {
     text-align: center;
 }
 
-.navbar > a {
+.navbar>a {
     text-align: center;
     display: inline-block;
     color: white;
@@ -57,7 +54,3 @@ header {
 }
 
 /* pics */
-
-.recentwork {
-
-}

@@ -24,14 +24,14 @@ function Home() {
                 </div>
             </div>
 
-            <aside>
-                <div className="recentwork">
+            <div className="recentwork">
+                <aside>
                     <h2>Recent Work</h2>
                     <img src="images/lakes/lake_22.jpg" width="100%" alt="Lake" />
                     <img src="images/forests/forest_22.jpg" width="100%" alt="Forest" />
                     <img src="images/nightSkies/nightsky_22.jpg" width="100%" alt="Night Sky" />
-                </div>
-            </aside>
+                </aside>
+            </div>
         </div >
     )
 }
