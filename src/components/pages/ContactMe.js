@@ -6,12 +6,20 @@ function ContactMe() {
     return (
         <main>
             <div className="container">
-                <h2>Get in touch</h2>
-                <p>
-                    I'd love to hear from you! <br />
+                <div className="row">
+                    <div className="col-sm-8 mx-auto">
+                        <h2>Get in touch</h2>
+                        <p>
+                            I'd love to hear from you! <br />
                     I'll get back to you as soon as I can.
                 </p>
-                <ContactForm />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-8 mx-auto">
+                        <ContactForm />
+                    </div>
+                </div>
             </div>
         </main>
     )
