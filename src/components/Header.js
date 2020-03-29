@@ -4,7 +4,8 @@ import ContactLink from './items/ContactLink'
 function Header() {
     return (
         <header>
-            <img alt="Michael's Landscapes" className="mainlogo" src="images/MichaelsLandscapes_White.png" />
+            <img alt="Michael's Landscapes" className="mainlogo"
+                src="/images/MichaelsLandscapes_White.png" />
 
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#"></a>
