@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Sidebar from '../items/Sidebar'
+import GalleryPic from '../items/GalleryPic'
 
 function Home() {
     return (
@@ -34,13 +35,21 @@ function Home() {
                     </div>
                     <div className="row">
                         <div className="col-sm-4 px-1">
-                            <img src="images/lakes/lake_22.jpg" width="100%" alt="Lake" />
+                            <GalleryPic divClassName="gallery-pic m-2" imgClassName="img-thumbnail"
+                                href="/galleries/lake" alt="Lake"
+                                src="images/lakes/lake_22.jpg" />
                         </div>
+
                         <div className="col-sm-4 px-1">
-                            <img src="images/forests/forest_22.jpg" width="100%" alt="Forest" />
+                            <GalleryPic divClassName="gallery-pic m-2" imgClassName="img-thumbnail"
+                                href="/galleries/forest" alt="Forest"
+                                src="images/forests/forest_22.jpg" />
                         </div>
+
                         <div className="col-sm-4 px-1">
-                            <img src="images/nightSkies/nightsky_22.jpg" width="100%" alt="Night Sky" />
+                            <GalleryPic divClassName="gallery-pic m-2" imgClassName="img-thumbnail"
+                                href="/galleries/nightSky" alt="Night Sky"
+                                src="images/nightSkies/nightsky_22.jpg" />
                         </div>
                     </div>
                 </div>
