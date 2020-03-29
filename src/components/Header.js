@@ -1,5 +1,4 @@
 import React from 'react'
-import ContactLink from './items/ContactLink'
 
 function Header() {
     return (
