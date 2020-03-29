@@ -5,7 +5,8 @@ import Sidebar from '../items/Sidebar'
 function Home() {
     return (
         <div>
-            <div className="container">
+
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-sm-8">
                         <main className="main-content">
@@ -24,14 +25,27 @@ function Home() {
                 </div>
             </div>
 
-            <div className="recentwork">
-                <aside>
-                    <h2>Recent Work</h2>
-                    <img src="images/lakes/lake_22.jpg" width="100%" alt="Lake" />
-                    <img src="images/forests/forest_22.jpg" width="100%" alt="Forest" />
-                    <img src="images/nightSkies/nightsky_22.jpg" width="100%" alt="Night Sky" />
-                </aside>
-            </div>
+            <aside>
+                <div className="recentwork container mt-5">
+                    <div className="row my-3">
+                        <div className="col-sm-12">
+                            <h2>Recent Work</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-4 px-1">
+                            <img src="images/lakes/lake_22.jpg" width="100%" alt="Lake" />
+                        </div>
+                        <div className="col-sm-4 px-1">
+                            <img src="images/forests/forest_22.jpg" width="100%" alt="Forest" />
+                        </div>
+                        <div className="col-sm-4 px-1">
+                            <img src="images/nightSkies/nightsky_22.jpg" width="100%" alt="Night Sky" />
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
         </div >
     )
 }
