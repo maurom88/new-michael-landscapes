@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mike's Landscapes</title>
+  <link href="CSS/style.css" rel="stylesheet">
+  <!--  <link rel="stylesheet" href="CSS/style_form.css">-->
+</head>
+
+<body>
+  <!-- Header should remain the same on all pages-->
+  <header>
+    <div>
+      <!-- Website's logo, title and tagline-->
+      <img alt="Michael's Landscapes" class="mainlogo" src="images/MichaelsLandscapes_White.png">
+
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About</a>
+        <div class="dropdown">
+          <a class="dropbtn">Galleries</a>
+          <div class="dropdown-content">
+            <a href="photogallery.html">All Categories</a>
+            <a href="photogallery_forest.html">Forest</a>
+            <a href="photogallery_lakes.html">Lakes</a>
+            <a href="photogallery_mountains.html">Mountains</a>
+            <a href="photogallery_night.html">Night Skies</a>
+          </div>
+        </div>
+        <a href="contactme.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- contact form -->
+    <div class="container">
+      <h2>Get in touch</h2>
+      <p>I'd love to hear from you! I'll get back to you as soon as I can.</p>
+      <form action="" target="_self" method="POST">
+        <div class="form-container">
+          <div class="row">
+            <div class="col-narrow">
+              <label for="name">Name: </label>
+            </div>
+            <div class="col-wide">
+              <input type="text" name="name" placeholder="John Smith" required><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-narrow">
+              <label for="phone">Phone #: </label>
+            </div>
+            <div class="col-wide">
+              <input type="tel" name="phone" placeholder="xxx-xxx-xxxx"><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-narrow">
+              <label for="email">Email address: </label>
+            </div>
+            <div class="col-wide">
+              <input type="email" name="email" placeholder="name@example.com" required><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-narrow">
+              <label for="subject">Subject: </label>
+            </div>
+            <div class="col-wide">
+              <input type="text" name="subject" required><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-narrow">
+              <label for="message">Your message: </label>
+            </div>
+            <div class="col-wide">
+              <textarea rows="10" cols="30" name="message" required></textarea><br>
+            </div>
+          </div>
+          <div class="row col-narrow">
+            <input type="submit" value="Send message">
+            <input type="reset" value="Reset">
+          </div>
+        </div>
+      </form>
+  </main>
+
+  <!-- sidebar -->
+  <aside>
+    <div class="sidebar services">
+      <h2>Michael the Photographer</h2>
+      <p>
+        Photography is my passion.<br>
+        Come discover more:<br>
+        <a href="aboutus.html">about me</a>
+      </p>
+    </div>
+  </aside>
+
+</body>
+
+</html>

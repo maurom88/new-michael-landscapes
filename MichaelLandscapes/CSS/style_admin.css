@@ -1,0 +1,27 @@
+.admin_table {
+    width: 100%;
+    float: center;
+    margin: 40px 20%;
+}
+
+.admin_table th {
+    text-align: left;
+    border-bottom-style: solid;
+}
+
+.admin_table button {
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+
+.button_new {
+    background-color: rgb(16, 190, 16);
+}
+
+.button_edit {
+    background-color: rgb(244, 248, 12);
+}
+
+.button_delete {
+    background-color: rgb(247, 18, 18);
+}
