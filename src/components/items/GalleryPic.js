@@ -2,13 +2,13 @@ import React from 'react'
 
 function GalleryPic(props) {
     return (
-        <div className="">
+        <div className={props.divClassName}>
             <a href={props.href}>
-                <img alt={props.alt} height={props.height} width={props.width} src={props.src}  />
+                <img alt={props.alt} src={props.src} className={props.imgClassName} />
             </a>
-            <div className="">
+            <p>
                 {props.desc}
-            </div>
+            </p>
         </div>
     )
 }
