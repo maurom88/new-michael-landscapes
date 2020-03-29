@@ -4,8 +4,8 @@ import ContactLink from './ContactLink'
 
 function Sidebar() {
     return (
-        <aside>
-            <div className="sidebar services">
+        <div className="sidebar-services">
+            <aside>
                 <h2>Services</h2>
                 <p>
                     Book a lesson<br />
@@ -14,8 +14,8 @@ function Sidebar() {
                 <p>
                     <ContactLink />
                 </p>
-            </div>
-        </aside>
+            </aside>
+        </div>
     )
 }
 
