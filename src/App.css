@@ -32,6 +32,10 @@ header {
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2), 5px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+.recent-work {
+    min-height: 500px;
+}
+
 .sidebar-services {
     padding: 10%;
     color: #424242;

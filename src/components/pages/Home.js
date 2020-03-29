@@ -26,7 +26,7 @@ function Home() {
             </div>
 
             <aside>
-                <div className="recentwork container mt-5">
+                <div className="recent-work container mt-5">
                     <div className="row my-3">
                         <div className="col-sm-12">
                             <h2>Recent Work</h2>
