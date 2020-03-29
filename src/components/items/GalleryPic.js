@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './GalleryPic.css'
+
 function GalleryPic(props) {
     return (
         <div className={props.divClassName}>
