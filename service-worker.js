@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/new-michael-landscapes/precache-manifest.8c1f58474b3108485ca7462a0290a99a.js"
+  "/new-michael-landscapes/precache-manifest.9d5513a7ffb390c12a96505dea5fba64.js"
 );
 
 self.addEventListener('message', (event) => {
